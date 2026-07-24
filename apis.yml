@@ -1,7 +1,13 @@
 aid: coded
 name: Coded
-description: Coded is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'CODED is a Kuwait-based coding education and technology skills company
+  offering hands-on bootcamps and programs for adults, youth, and kids. Its adult
+  bootcamps cover Cybersecurity, Agentic AI, AI & Data Science, and AI App Development,
+  while youth tracks (ages 14-24) and kids programs (ages 6-13) build foundational
+  and career-oriented tech skills through projects, coaching, and real-world standards.
+  CODED also delivers custom enterprise training for corporate teams. Surfaced as a
+  500 Global portfolio company and added to the API Evangelist network; CODED is an
+  education provider and publishes no public developer API, SDKs, or specifications.'
 url: https://raw.githubusercontent.com/api-evangelist/coded/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +15,31 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/images/ZKicZkhyozuTSRuukgcgdzTuzI.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Education
+- EdTech
+- Coding Bootcamp
+- Developer Training
+- Artificial Intelligence
+- Cybersecurity
+- Data Science
+- Kuwait
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/coded-domain-security.yml
 - type: Website
-  url: https://joincoded.com
+  url: https://coded.kw
+- type: PrivacyPolicy
+  url: https://coded.kw/privacy-policy
+- type: Support
+  url: https://coded.kw/about/contact
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
